@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "title": "SuperHero Top Trumps",
+        "image": "./SuperHero_Game.png",
+        "description": "This was a collaborative team project based on the Top Trumps card game, but with SuperHeroes & Villains. The user plays with the computer and my responsibilities were to code the game engine - the basic visual interface and the game logic, plus setup the appropriate API calls to fetch the card stats. The project had very a very tight schedule and was delivered in 11 days with a great team effort using the agile development process.",
+        "technologies": "Javascript, JQuery, Bootstrap & AJAX",
+        "github": "https://github.com/ranjmak/superhero_top_trumps",
+        "deployed": "https://rhanciles.github.io/SuperHero-Game"
+    },
+    {
+        "id": "2",
+        "title": "weather_dashboard",
+        "image": "./weather_dashboard.png",
+        "technologies": "Javascript, jQuery, Bootstrap, moment & AJAX",
+        "description": " Using the OpenWeatherMap API, the weather dashboard project retrieved the latitude and longitude for the given global city, town or village for a country and then using this data to retrieve detailed weather data including: the city name; weather icon; temperature; humidity and wind speed. It shows a 5-day weather forecast and records the search history for easy access on following visits. The user can also clear this history list.",
+        "github": "https://github.com/ranjmak/weather_dashboard",
+        "deployed": "https://ranjmak.github.io/weather_dashboard/"
+    },
+    {
+        "id": "3",
+        "title": "Team Profile Generator",
+        "image": "./team_generator.png",
+        "technologies": "Node.JS, Javascript & Bootstrap",
+        "description": "This project uses Node.js and the command-line application requests the user to input the relevant employees information to allow them to set up a team and generate a dynamic HTML web page. The team members summaries are shown in a card format as a one stop shop page for team member details. It is envisaged that managers would normally set this up",
+        "github": "https://github.com/ranjmak/team_profile_gen",
+        "deployed": "???"
+    },
+    {
+        "id": "4",
+        "title": "Javascript Quiz",
+        "image": "./js-quiz.png",
+        "technologies": "HTML, CSS & Javascript",
+        "description": "This quiz app was written in way that allows developers to change the type of quiz by just changing the questions object file. The current questions object is setup for JavaScript. A number of randomly selected multiple-choice questions are presented to the user to answer in a pre-set time. Time is also taken off for every incorrect answer!",
+        "github": "https://github.com/ranjmak/JS-quiz",
+        "deployed": "https://ranjmak.github.io/JS-quiz/"
+    },
+    {
+        "id": "5",
+        "title": "Password Generator",
+        "image": "./pwd-generator.png",
+        "description": "This app will generate a random password for the user, given some criteria such as uppercase/lowercase letters, numerals and special characters",
+        "technologies": "Javascript, Bootstrap & CSS",
+        "github": "https://github.com/pwd-generator",
+        "deployed": "https://ranjmak.github.io/pwd-generator/"
+    },
+    {
+        "id": "6",
+        "title": "Workday Planner",
+        "image": "./workday_planner.png",
+        "technologies": "Javascript, Bootstrap & Moment",
+        "description": "This is a simple workday planner app that allows the user to keep track of their appointments during a normal 9-5 work day!",
+        "github": "https://github.com/ranjmak/workday_planner",
+        "deployed": "https://ranjmak.github.io/workday_planner/"
+    }
+]

@@ -1,0 +1,26 @@
+.imageContainer {
+    /* background-size: cover; */
+    background-color: var(--grey);
+}
+
+.imageContainer img {
+    height: 15em; 
+    width: 18em;
+    margin-top: 25px;
+    transition: all 1.3s ease-in-out;
+  }
+
+  .description {
+    background: var(--grey);
+    color: var(--text-color);
+  }
+
+  .card-body {
+      background-color: var(--grey);
+      color: var(--text-color);
+  }
+
+  .card-header h2 {
+    background-color: #350af3;
+    color: var(--text-color);
+}
