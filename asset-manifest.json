@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ranj-portfolio-react/static/css/main.64920546.css",
+    "main.js": "/ranj-portfolio-react/static/js/main.b5116b61.js",
+    "static/media/SuperHero_Game.png": "/ranj-portfolio-react/static/media/SuperHero_Game.4d77b6f6fde863b42801.png",
+    "static/media/team_generator.png": "/ranj-portfolio-react/static/media/team_generator.02c5bb52afeded035738.png",
+    "static/media/pwd-generator.png": "/ranj-portfolio-react/static/media/pwd-generator.cbbce651d472b8325c41.png",
+    "static/media/weather_dashboard.png": "/ranj-portfolio-react/static/media/weather_dashboard.d401c62216a07fd6fb25.png",
+    "static/media/teamProfiles.png": "/ranj-portfolio-react/static/media/teamProfiles.6c9011ae5b1b76dafe35.png",
+    "static/media/faceless.svg": "/ranj-portfolio-react/static/media/faceless.6a718818f998034e10077bce7cc7297b.svg",
+    "static/media/faceless-left.svg": "/ranj-portfolio-react/static/media/faceless-left.020de5333d68b323f1fe807ef5dc8c23.svg",
+    "static/media/workday_planner.png": "/ranj-portfolio-react/static/media/workday_planner.02d4f0ab5ca2d43bb2eb.png",
+    "static/media/js-quiz.png": "/ranj-portfolio-react/static/media/js-quiz.9a5b4efc7c6e22795b57.png",
+    "static/media/rm-resume.pdf": "/ranj-portfolio-react/static/media/rm-resume.d42c58de0f9d90066e0b.pdf",
+    "static/media/global.svg": "/ranj-portfolio-react/static/media/global.b89f0b38cceaa0d3ee7d62c5401c9ff3.svg",
+    "index.html": "/ranj-portfolio-react/index.html",
+    "main.64920546.css.map": "/ranj-portfolio-react/static/css/main.64920546.css.map",
+    "main.b5116b61.js.map": "/ranj-portfolio-react/static/js/main.b5116b61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64920546.css",
+    "static/js/main.b5116b61.js"
+  ]
+}
