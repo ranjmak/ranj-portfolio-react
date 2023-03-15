@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ranj-portfolio-react/static/css/main.64920546.css",
-    "main.js": "/ranj-portfolio-react/static/js/main.1f08862d.js",
+    "main.js": "/ranj-portfolio-react/static/js/main.70408224.js",
     "static/media/SuperHero_Game.png": "/ranj-portfolio-react/static/media/SuperHero_Game.4d77b6f6fde863b42801.png",
     "static/media/team_generator.png": "/ranj-portfolio-react/static/media/team_generator.02c5bb52afeded035738.png",
     "static/media/pwd-generator.png": "/ranj-portfolio-react/static/media/pwd-generator.cbbce651d472b8325c41.png",
@@ -15,10 +15,10 @@
     "static/media/global.svg": "/ranj-portfolio-react/static/media/global.b89f0b38cceaa0d3ee7d62c5401c9ff3.svg",
     "index.html": "/ranj-portfolio-react/index.html",
     "main.64920546.css.map": "/ranj-portfolio-react/static/css/main.64920546.css.map",
-    "main.1f08862d.js.map": "/ranj-portfolio-react/static/js/main.1f08862d.js.map"
+    "main.70408224.js.map": "/ranj-portfolio-react/static/js/main.70408224.js.map"
   },
   "entrypoints": [
     "static/css/main.64920546.css",
-    "static/js/main.1f08862d.js"
+    "static/js/main.70408224.js"
   ]
 }
