@@ -6,7 +6,7 @@
         "description": "This was a collaborative team project based on the Top Trumps card game, but with SuperHeroes & Villains. The user plays with the computer and my responsibilities were to code the game engine - the basic visual interface and the game logic, plus setup the appropriate API calls to fetch the card stats. The project had very a very tight schedule and was delivered in 11 days with a great team effort using the agile development process.",
         "technologies": "Javascript, JQuery, Bootstrap & AJAX",
         "github": "https://github.com/ranjmak/superhero_top_trumps",
-        "deployed": "https://rhanciles.github.io/SuperHero-Game"
+        "deployed": "https://rhanciles.github.io/SuperHero_Game"
     },
     {
         "id": "2",
@@ -24,7 +24,7 @@
         "technologies": "Node.JS, Javascript & Bootstrap",
         "description": "This project uses Node.js and the command-line application requests the user to input the relevant employees information to allow them to set up a team and generate a dynamic HTML web page. The team members summaries are shown in a card format as a one stop shop page for team member details. It is envisaged that managers would normally set this up",
         "github": "https://github.com/ranjmak/team_profile_gen",
-        "deployed": "???"
+        "deployed": "https://github.com/ranjmak/team_profile_gen/blob/main/assets/images/teamProfiles.png"
     },
     {
         "id": "4",
@@ -32,8 +32,8 @@
         "image": "./js-quiz.png",
         "technologies": "HTML, CSS & Javascript",
         "description": "This quiz app was written in way that allows developers to change the type of quiz by just changing the questions object file. The current questions object is setup for JavaScript. A number of randomly selected multiple-choice questions are presented to the user to answer in a pre-set time. Time is also taken off for every incorrect answer!",
-        "github": "https://github.com/ranjmak/JS-quiz",
-        "deployed": "https://ranjmak.github.io/JS-quiz/"
+        "github": "https://github.com/ranjmak/js-quiz",
+        "deployed": "https://ranjmak.github.io/js-quiz/"
     },
     {
         "id": "5",
