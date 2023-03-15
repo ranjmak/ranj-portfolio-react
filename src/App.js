@@ -20,7 +20,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/ranj-portfolio-react">
       <div>
         <Header />
         {/* Wrap Route elements in a Routes component */}
