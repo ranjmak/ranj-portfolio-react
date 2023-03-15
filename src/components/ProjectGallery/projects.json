@@ -41,7 +41,7 @@
         "image": "./pwd-generator.png",
         "description": "This app will generate a random password for the user, given some criteria such as uppercase/lowercase letters, numerals and special characters",
         "technologies": "Javascript, Bootstrap & CSS",
-        "github": "https://github.com/pwd-generator",
+        "github": "https://github.com/ranjmak/pwd-generator",
         "deployed": "https://ranjmak.github.io/pwd-generator/"
     },
     {
