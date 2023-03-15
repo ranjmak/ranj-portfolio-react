@@ -1,0 +1,12 @@
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    /* justify-content: space-between;
+    justify-content: space-around; */
+    color: var(--text-color);
+    font-size: "24px";
+}
+i {
+    margin-right: 10px;
+}
