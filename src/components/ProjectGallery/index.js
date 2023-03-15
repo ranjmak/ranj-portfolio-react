@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import ProjectsJSON from "./projects.json";
 import Project from "./Project";
 import Container from "./Container";
@@ -27,9 +28,14 @@ const ProjectGallery = () => {
       </div>
       <Container>
           <Row>
-            <div className="row">
+            <motion.div
+              className="row"
+              initial={{ y: "10vw", opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 1, ease: "easeInOut" }}
+            >
               <ProjectList />
-            </div>
+            </motion.div>
           </Row>
       </Container>
     </div>

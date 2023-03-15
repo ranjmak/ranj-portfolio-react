@@ -1,31 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto&display=swap');
 
-/* --- VARIABLES --- */
+
 :root {
   --bg-color: #000000;
   --hl-color: #4a8dcf;
   --text-color: #f3f3f3;
-  --secondary-text-color: #9f9f9f;
+  /* --secondary-text-color: #9f9f9f; */
   --grey: #9f9f9f76;
   --light-grey: #eae8e893;
   --spacing: 50px;
   --sm-spacing: 30px;
 }
-
-/* --- ANIMATIONS --- */
-
-@keyframes slideDown {
-  0% {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(1%);
-    opacity: 1;
-  }
-}
-
-/* --- RESETS --- */
 
 * {
   margin: 0;
@@ -44,8 +29,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* --- GLOBAL STYLES --- */
-
 ::selection {
   background-color: var(--hl-color);
   color: var(--text-color);
@@ -61,15 +44,6 @@ body {
   padding-left: 10px;
   color: var(--grey);
   font-size: 14px;
-}
-
-.socialIcons .icon {
-  color: var(--text-color);
-}
-
-.socialIcons .icon:hover {
-  scale: 1.2;
-  color: var(--hl-color);
 }
 
 .btn {
@@ -88,9 +62,6 @@ body {
   color: var(--text-color);
 }
 
-/* --- MOBILE STYLES --- */
-
-/* --- HEADER ---  */
 header {
   padding: var(--sm-spacing) var(--spacing);
   color: var(--text-color);
@@ -98,12 +69,6 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-left: 10px;
-}
-
-
-
-.logo {
-  height: 30px;
 }
 
 .links {

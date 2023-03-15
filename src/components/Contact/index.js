@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { motion } from "framer-motion";
 import { send } from 'emailjs-com';
 import './style.css';
 
@@ -9,6 +10,16 @@ function Contact({personalDetails}) {
     message: '',
     to_name: 'ranj',
   });
+  const [sent, setSent] = useState({
+    message: 'Get back to me!'
+  });
+
+  useEffect(() => {
+   setTimeout(() => {
+      setSent({message: 'Get Back to me!'});   
+   }, 10000);
+  }, [sent]);
+  
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -19,6 +30,7 @@ function Contact({personalDetails}) {
       'Et6vzplp0bFcSp8tp'
     )
       .then((response) => {
+        setSent({message: 'All done, I\'ll be in touch... thanks'});
         console.log('SUCCESS!', response.status, response.text);
       })
       .catch((err) => {
@@ -37,22 +49,35 @@ function Contact({personalDetails}) {
         <p className="pageDescription">Reach out</p>
       </div>
       <div className="row">
-        <div className="col-12 col-lg-6 contact_details">
+      <motion.div
+          className="col-12 col-lg-6 contact_details"
+          initial={{ x: "-10vw", opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+        >
           <div>
-            <p>If you would like to discuss future projects or have a project in mind and need technical support, 
-              I am open to ideas for collaboration</p>
+            <div>
+              <p>If you would like to discuss future projects or have a project in mind and need technical support, 
+                I am open to ideas for collaboration</p>
+            </div>
+            <div>
+                <p>My availability is {personalDetails.location}</p>
+            </div>
+            <div>
+                <p>You can reach out by emailing me at <a href={`mailto:${personalDetails.email}`}>{personalDetails.email}</a>
+                  , alternatevily, leave your name, 
+                email and a message and i'll get back to you</p>
+            </div>
+            <div className='signature'>{personalDetails.signature}</div>
           </div>
-          <div>
-              <p>My availability is {personalDetails.location}</p>
-          </div>
-          <div>
-              <p>You can reach out by emailing me at <a href={`mailto:${personalDetails.email}`}>{personalDetails.email}</a>
-                , alternatevily, leave your name, 
-              email and a message and i'll get back to you</p>
-          </div>
-          <div className='signature'>{personalDetails.signature}</div>
-        </div>
-        <div className="col-12 col-lg-6">
+      </motion.div>
+      <motion.div
+          className="col-12 col-lg-6"
+          initial={{ x: "10vw", opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+        >
+        <div>
           <form className="form" onSubmit={onSubmit}>
             <input
               type='text'
@@ -82,9 +107,10 @@ function Contact({personalDetails}) {
             <div className='to_name'>
                 {toSend.to_name}
             </div>
-            <button className='btn' type='submit'>Get Back to me!</button>
+            <button className='btn' type='submit'>{sent.message}</button>
           </form>
         </div>
+        </motion.div>
       </div>
     </div>
   );

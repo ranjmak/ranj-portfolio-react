@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
 import ProjectGallery from './components/ProjectGallery';
+import Footer from './components/Footer';
 
 function App() {
   const personalDetails = {
@@ -34,6 +35,7 @@ function App() {
           {/* Define a route that will have descendant routes */}
           <Route path="contact" element={<Contact personalDetails={personalDetails} />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

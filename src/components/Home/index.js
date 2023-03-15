@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import personalImage from "../../assets/images/faceless-left.svg";
 import globeImage from "../../assets/images/global.svg";
 import AnimChars from "./AnimChars";
-//import SocialIcons from "../components/SocialIcons";
 import './style.css';
 
 function Home({personalDetails}) {
@@ -62,7 +61,6 @@ function Home({personalDetails}) {
           />
         </div>
       </div> 
-      {/* <SocialIcons /> */}
     </section>
   );
 };

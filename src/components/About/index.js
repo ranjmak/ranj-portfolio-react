@@ -1,5 +1,4 @@
 import React from "react";
-//import SocialIcons from "../components/SocialIcons";
 import { motion } from "framer-motion";
 import ranjImg from "../../assets/images/faceless.svg";
 import resume from "../../assets/rm-resume.pdf";
@@ -62,11 +61,8 @@ function About({personalDetails}) {
               <button className="btn downloadResume">
               <a href={resume} download="rm-resume.pdf"> Download Resume </a>
               </button>{" "}
-              {/* <SocialIcons /> */}
             </div>
           </div>
-
-
         </motion.div>
       </div>
     </div>
