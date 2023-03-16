@@ -1,41 +1,54 @@
 # ranj-portfolio-react
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Challenge 13: React Portfolio
+## Table of Contents
+[Requirement](#requirement)
 
-For this challenge, you will utilize what you have learned in `Module 13: React` to develop the initial scaffolding of your portfolio sites.
+[Instructions](#instructions)
 
-Now that you've worked with React and have multiple projects to share, it's time to develop the initial scaffolding for your first portfolio site as well as create and/or update other materials so that you can showcase your skills to potential employers. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
+[Links](#links)
+
+[Screenshots](#screenshots)
+
+[Contributions](#contributions)
+
+[Tests](#tests)
+
+[Questions](#questions)
+
+[License](#license)
+
+## Requirement
+
+An assignment as part of a Bootcamp course on frontend web development. For this challenge, utilising knowledge that's been accrued over the course of the bootcamp, this portfolio is the initial scaffolding using React and Framer-Motion. Note that this is work-in-progress... and is likely to substantially change in the future!
 
 ## Instructions
 
-* Students must fullfil the requirements listed in the following sections:
+* The portfolio meets the following requirements
 
 ### Design
 
-Remember, "good" design is subjective. Your site should look "polished" and "professional". Here are a few guidelines on what that means:
+A "polished" and "professional" portfolio design using the following guidelines:
 
 * Mobile-first design
 
-* Choose a color palette for your site so it doesn't just look like
-the default bootstrap theme or an unstyled HTML site.
-
-* Make sure the font size is large enough to read and that the colors don't cause eye strain.
+* A non-bootstrap looking color palette for the site was chosen with a large enough font size and colours that are easy on the eye
 
 ### Base Requirements
 
-* Technologies that must be used:
+* Technologies used:
   * [ ] React
   * [ ] Navigation with `React Router`, dynamic rendering, or another third part router
-* Your portfolio **must contain** the following information:
-  * [ ] Your name
-  * [ ] Links to your:
+*  Portfolio **contains** the following information:
+  * [ ] name
+  * [ ] Links to:
     * [ ] GitHub Profile
     * [ ] LinkedIn Page
     * [ ] Email Address
     * [ ] Phone Number - (optional)
     * [ ] PDF version of your resume
-      * Your resume **must** contain up-to-date projects and professional experience
-    * [ ] A list of projects (Challenges or Projects). For each project, make sure you have the following:
+      * Resume **contains** up-to-date projects and professional experience
+    * [ ] A list of projects (Challenges or Projects). For each project, the following are included:
       * [ ] Project title
       * [ ] Link to the deployed version
       * [ ] Link to the GitHub repository
@@ -43,9 +56,10 @@ the default bootstrap theme or an unstyled HTML site.
 
 ### Required Components
 
-* At a minium, your portfolio must render these 6 components:
+* The portfolio renders these 7 components:
   1. [ ] App
   2. [ ] Header
+  3. [ ] About
   4. [ ] Home
   5. [ ] Project Gallery
   6. [ ] Project
@@ -53,76 +67,122 @@ the default bootstrap theme or an unstyled HTML site.
 
 ### Required Component Content
 * [ ] App:
-  * [ ] Must be your top level component and render all necessary children components
+  * [ ] Top level component and renders all necessary children components
 * [ ] Header:
-   * [ ] Must be rendered across the entire site
-   * [ ] Must Contain a Navbar
+   * [ ] Rendered across the entire site
+   * [ ] Contain's a Navbar
 * [ ] Project Gallery:
-  * [ ] Must render dynamically 6 instances of the Project component
-    * [ ] Be sure to store your project data in a JSON file and import it into your project
+  * [ ] Dynamically renders 6 instances of the Project component
+    * [ ] Project data in stored in a JSON file and imported into project gallery
 * [ ] Project:
-   * [ ] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
-   * [ ] Must utilize router props to properly render the right project based on user selection
-   * [ ] Must render the following info:
+   * [ ] A reusable component that ingests JSON data as a props and renders a single instance for each project.
+   * [ ] Utilises router props to properly render the right project based on user selection
+   * [ ] Renders the following info:
      * [ ] Project title
      * [ ] Link to the deployed version
      * [ ] Link to the GitHub repository
      * [ ] GIF or screenshot of the deployed application
+     * [ ] A brief description of the project
+     * [ ] The technologies used in developing the project
 * [ ] Contact:
-  * [ ] Must have contact information
-  * [ ] Have a contact form for handling events
+  * [ ] Contact information
+  * [ ] A contact form for handling events and mailing it
 * [ ] Home:
   * This should be a welcome landing page that contains:
-     * [ ] Your Name
+     * [ ] Name
      * [ ] A Headshot of you
      * [ ] Your brand statement
-     * [ ] Some indication that this is your portfolio site
+     * [ ] CLear indication that this is a portfolio site
 
 ### Updated Social Media Presence
 #### LinkedIn
 
-* Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
-* If you do not have a LinkedIn profile, please create one.
+* LinkedIn Profile
+
 #### GitHub
 
-* Update GitHub profile with pinned repositories featuring those same projects.
+* GitHub profile with pinned repositories featuring those same projects.
 
-## Grading
-
-This challenge is assessed on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria 
-
-### Deployment: 32%
-
-* Application deployed at live URL (if applicable).
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted (if applicable).
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* User experience is intuitive and easy to navigate.
-
-* User interface style is clean and polished.
-
-* Application uses a color scheme other than the default Bootstrap color palette.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
 ---
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+## Links
+
+The files for this project can be found in this Github repo:
+https://github.com/ranjmak/ranj-portfolio-react
+
+The deployed portfolio can be found at these Github pages:
+https://ranjmak.github.io/ranj-portfolio-react/
+
+
+
+## Screenshots
+The following image shows the landing/Home page:
+
+![screenshot of landing/Home page.](./src/assets/images/homepage.png)
+
+---
+
+The following image shows About page:
+
+![screenshot of the About page.](./src/assets/images/aboutpage.png)
+
+---
+
+The following image shows the full Photo Gallery page:
+
+![screenshot of the full Photo Gallery page.](./src/assets/images/photogallerypage-full.png)
+
+---
+
+The following image shows the full Photo Gallery page:
+
+![screenshot of the Photo Gallery page.](./src/assets/images/photogallerypage-two.png)
+
+---
+
+The following image shows the Contact page:
+
+![screenshot of the Contact page.](./src/assets/images/contactpage.png)
+
+---
+
+  ## Contributions
+  If you would like to make a contribution to this project, please get in touch via email with your proposals
+
+
+  ## Tests
+  No particular tech was used for testing besides console logging in a piecemeal way!
+
+  ## Acknowledgements
+  There were a large number people and organisations whose ideas and work was used in helping to develop this portfolio. The initial inspiration for the look and feel came from ![inspiration.](./src/assets/images/inspired.png). Many hours were spent pouring over others use of React with Framer-Motion, including a large number of YouTube videos! Certainly a labour of love.
+
+  ## Questions
+  Please feel free to reach out to me with any questions about this project at [ranjit.makwana@gmail.com](mailto:ranjit.makwana@gmail.com). You can also check out my Github profile: [ranjmak](https://github.com/ranjmak).
+
+
+  ---
+
+  ## License
+  This project is licensed under the terms of the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+2023 Ranj
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
