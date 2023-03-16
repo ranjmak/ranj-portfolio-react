@@ -11,7 +11,7 @@ function Home({personalDetails}) {
     <section className="home container">
       <div>
           <h3 className="pageTitle">Welcome</h3>
-          <p className="pageDescription">Browse my Portfolio...</p>
+          <p className="pageDescription">Browse {personalDetails.name}'s Portfolio...</p>
       </div>
       <div className='row'>
         <div className="col-12 col-md-3 col-lg-3 image-container">
@@ -47,7 +47,7 @@ function Home({personalDetails}) {
             animate={{ y: "10vw", opacity: 0.5 }}
             transition={{ duration: 1, ease: "easeInOut" }}
         >
-          <AnimChars text={personalDetails.moniker} />
+          <AnimChars text={personalDetails.tagline} />
         </motion.div>
         </div>
         <div className="image-container col-12 col-md-3 col-lg-3">

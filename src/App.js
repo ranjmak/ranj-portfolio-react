@@ -13,11 +13,14 @@ function App() {
     name: "Ranjit Makwana",
     signature: "...Ranj",
     location: "UK Based, Global in practice",
-    moniker: "TOGETHER, we can achieve anything!",
+    moniker: "Unlocking limitless potential.",
+    tagline: "In partnership, we can achieve the impossible..........",
     email: "ranjit.makwana@gmail.com",
     availability: "Always up for challenging and interesting projects",
     brand:
-      "With a keen inetrest in Science and Tech, I am open to almost all innovations in tech. I find the new ideas in understanding the Quantum realm, General Artificial Intelligence and Health, both exciting and inspiring.",
+      "With a keen interest in all things Science and Technology, I find the new ideas in the Quantum arena, the Cosmos"
+      +"General Artificial Intelligence and the future of our Healthcare, both exciting and inspiring."
+      +"I am open to most 'bread & butter' projects but particularly innovative ones in new tech.",
   };
 
   return (
